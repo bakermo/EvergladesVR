@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 4944.201, g: 4488.5474, b: 4916.489, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -997,7 +997,7 @@ MonoBehaviour:
   largeBand0FadeToggle: 1
   largeBand1FadeToggle: 1
   ripplesFadeToggle: 1
-  surfaceType: 1
+  surfaceType: 0
   geometryType: 2
   meshRenderers: []
   timeMultiplier: 1
@@ -1047,11 +1047,11 @@ MonoBehaviour:
   underWaterScatteringColorMode: 0
   underWaterScatteringColor: {r: 0, g: 0.27, b: 0.23, a: 1}
   underWaterRefraction: 1
-  largeCurrentSpeedValue: 1.5
-  largeCurrentMap: {fileID: 0}
-  largeCurrentRegionExtent: {x: 100, y: 100}
+  largeCurrentSpeedValue: 0
+  largeCurrentMap: {fileID: 2800000, guid: 87902ed93535a21418453353cb51b748, type: 3}
+  largeCurrentRegionExtent: {x: 1000, y: 1000}
   largeCurrentRegionOffset: {x: 0, y: 0}
-  largeCurrentMapInfluence: 1
+  largeCurrentMapInfluence: 0.798
   ripplesCurrentSpeedValue: 0
   ripplesCurrentMap: {fileID: 0}
   ripplesCurrentRegionExtent: {x: 100, y: 100}
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  repetitionSize: 150
+  repetitionSize: 250
   largeOrientationValue: 0
   largeWindSpeed: 0
   largeChaos: 0.9
