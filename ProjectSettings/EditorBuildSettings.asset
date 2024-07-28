@@ -6,6 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cast Away.unity
+    path: Assets/Scenes/Cast Away.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 215ff75bed5e57d4f94a986ad4a89e69,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fb46306908c8251409ab5daaee08f742,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: e1ae9276d66a3e646af8ca0f4b885f9c,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a67fca3d509398943856ebbfcdfeeb18,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2219766c40dce624a981b18f3d852bff,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 537f601b3f6efdf4ba29b4aa3448781d,
+      type: 2}
+  m_UseUCBPForAssetBundles: 0
