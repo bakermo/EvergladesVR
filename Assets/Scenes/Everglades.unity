@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4962.7134, g: 4509.3325, b: 4951.0317, a: 1}
+  m_IndirectSpecularColor: {r: 4954.35, g: 4497.7856, b: 4928.3677, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -736,17 +736,17 @@ PrefabInstance:
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 656.6
+      value: 154.85
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.2
+      value: 11.54
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 333.7
+      value: 554.35
       objectReference: {fileID: 0}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36,
         type: 3}
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   tessellationFactorFadeRange: 1850
   refractionColor: {r: 0.010022826, g: 0.21404114, b: 0.21404114, a: 1}
   maxRefractionDistance: 0.5
-  absorptionDistance: 1.5
+  absorptionDistance: 4
   scatteringColor: {r: 0, g: 0.13286833, b: 0.17064494, a: 1}
   ambientScattering: 0.35
   heightScattering: 0.2
@@ -1253,7 +1253,7 @@ SceneRoots:
   - {fileID: 432432461}
   - {fileID: 2013410475}
   - {fileID: 576639669}
+  - {fileID: 384697426}
   - {fileID: 1923633043}
   - {fileID: 118923036}
-  - {fileID: 384697426}
   - {fileID: 572357217}
