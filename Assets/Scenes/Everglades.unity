@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 5001.7705, g: 4579.141, b: 5127.015, a: 1}
+  m_IndirectSpecularColor: {r: 4944.91, g: 4489.3374, b: 4916.6816, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12476,6 +12476,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.7705073e-12
       objectReference: {fileID: 0}
+    - target: {fileID: -8221227921530510933, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 66741ff495e6ec04b9bc62037406df8c, type: 2}
     - target: {fileID: -8109394690955301857, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12801,6 +12806,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -89.93128
       objectReference: {fileID: 0}
+    - target: {fileID: -4150872239850580485, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4341e6c9b8ffb4b4a9d02974e9d2ee98, type: 2}
     - target: {fileID: -4042149809462814603, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12846,6 +12856,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.13666
       objectReference: {fileID: 0}
+    - target: {fileID: -2677447174278416040, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 4341e6c9b8ffb4b4a9d02974e9d2ee98, type: 2}
     - target: {fileID: -2589579501347793532, guid: 844e18dbcbab2764bbf1ade6800ca0a9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
