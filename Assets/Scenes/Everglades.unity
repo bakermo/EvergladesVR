@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 4945.1587, g: 4489.5728, b: 4917.207, a: 1}
+  m_IndirectSpecularColor: {r: 4944.4526, g: 4488.983, b: 4916.1963, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1586,6 +1586,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crocodile
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6555c21809a73bd46851b2d459e5f98a,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1602,6 +1607,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 193200350}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6555c21809a73bd46851b2d459e5f98a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 193200353}
   m_SourcePrefab: {fileID: 100100000, guid: 6555c21809a73bd46851b2d459e5f98a, type: 3}
 --- !u!1 &193200347 stripped
 GameObject:
@@ -1749,6 +1758,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 3.2561195, z: 0.5533835}
   m_Center: {x: 0.0000000011588164, y: -0.24463703, z: 0.22330822}
+--- !u!114 &193200353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193200347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144234729d788534e982c4b8d299b20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  lineRenderer: {fileID: 2129752128}
+  rayLength: 30
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  uiPopup: {fileID: 1665882956}
+  inputCooldown: 0.5
+  rightTriggerActionReference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1 &209549649 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9168772928548159726, guid: 18900d122dd23f943843f5b57aab8a9b,
@@ -2358,6 +2389,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 102216279}
+    - targetCorrespondingSourceObject: {fileID: 7559680052737644977, guid: 18900d122dd23f943843f5b57aab8a9b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1665882957}
+    - targetCorrespondingSourceObject: {fileID: 7559680052737644977, guid: 18900d122dd23f943843f5b57aab8a9b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 438611227}
     - targetCorrespondingSourceObject: {fileID: 7559680052737644977, guid: 18900d122dd23f943843f5b57aab8a9b,
         type: 3}
       insertIndex: -1
@@ -3294,6 +3333,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &438611226 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1459016080}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &438611227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1459016080}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &466597028 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 82416e3fafbb47c4382b93a6f49500dd,
@@ -10927,6 +10978,153 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942538576}
   m_CullTransparentMesh: 1
+--- !u!1001 &967809846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1090929200}
+    m_Modifications:
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_Name
+      value: Alligator Pop-up
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876343015770789984, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 175.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876343015770789984, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0024078414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408479082402169896, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408479082402169896, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_text
+      value: "Scientific Name: Alligator mississippiensis \n\r\nBrief description:
+        While predominantly a freshwater species the American Alligator in the Everglades
+        does occasionally swim along the brackish waters around the mangrove trees.
+        During the dry season, the American Alligator, like many Everglades species
+        adapts to the conditions - in this case, by burrowing into dens called alligator
+        holes which are also inhabited by other species, contributing to the alligator\u2019s
+        status as a keystone species for the Everglades. Although endangered in the
+        1970s, laws and policies prohibiting poaching has brought the population
+        back to thriving despite loss of habitat. While attacks on humans are rare,
+        they do happen, often as a result of human feeding of alligators. \r\n\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094812279031796648, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_text
+      value: American Alligator
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb81828a3e7901c4c82567d1829b902b, type: 3}
 --- !u!1 &1025074064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3615855093415021677, guid: adc61851d1336cc418f15877c398caaf,
@@ -11082,6 +11280,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lion-Animated1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7313ede19200014ea624c55a21ed7b0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6044859921504918027, guid: c7313ede19200014ea624c55a21ed7b0, type: 3}
@@ -11099,6 +11302,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1080502398}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c7313ede19200014ea624c55a21ed7b0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1080502402}
   m_SourcePrefab: {fileID: 100100000, guid: c7313ede19200014ea624c55a21ed7b0, type: 3}
 --- !u!1 &1080502397 stripped
 GameObject:
@@ -11125,8 +11332,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 38.79909, y: 94.05216, z: 161.93991}
-  m_Center: {x: -21.9155, y: 40.029724, z: -47.017242}
+  m_Size: {x: 0.1, y: 0.1, z: 0.15}
+  m_Center: {x: -0.04, y: 0.05, z: -0.05}
 --- !u!82 &1080502399
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11246,6 +11453,28 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1080502402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080502397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144234729d788534e982c4b8d299b20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  lineRenderer: {fileID: 2129752128}
+  rayLength: 30
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  uiPopup: {fileID: 438611226}
+  inputCooldown: 0.5
+  rightTriggerActionReference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1 &1087681331
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,6 +14103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lion95k
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef2d766cd9c05de4aa0a2a5ba86c2026,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6044859921504918027, guid: 844e18dbcbab2764bbf1ade6800ca0a9, type: 3}
@@ -14475,6 +14709,154 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 839910827}
   m_SourcePrefab: {fileID: 100100000, guid: 120eaa7a018a29544998d598768d1247, type: 3}
+--- !u!1001 &1459016080
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1090929200}
+    m_Modifications:
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 234326340818531685, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_Name
+      value: Panther Pop-up
+      objectReference: {fileID: 0}
+    - target: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876343015770789984, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 175.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876343015770789984, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0024078414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408479082402169896, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408479082402169896, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_text
+      value: "Scientific Name: P. c. couguar \n\r\nBrief description: The Florida
+        panther is the name of a population of North American cougars that are present
+        in South Florida. Florida panthers are spotted at birth, and typically have
+        blue eyes. As the panther grows, the spots fade and the coat becomes completely
+        tan.  It is the only confirmed cougar population in the Eastern United States,
+        and currently occupies 5% of its historic range. As of 2024, about 200 individuals
+        are left in the wild. Up until the late 20th century it was considered a
+        distinct subspecies (Felis concolor coryi), but as of 2005 it was reclassified
+        as a North American cougar. While conservation efforts have helped to increase
+        its population, traffic collisions, continuing fragmentation of its habitat,
+        and territorial aggression have kept the population low."
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6720493005056396743, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094812279031796648, guid: eb81828a3e7901c4c82567d1829b902b,
+        type: 3}
+      propertyPath: m_text
+      value: Florida Panther
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb81828a3e7901c4c82567d1829b902b, type: 3}
 --- !u!1 &1463373825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864850019384750, guid: 6bacecc4f3df9584198879c73a6b6c36,
@@ -20166,6 +20548,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1626371701}
   m_CullTransparentMesh: 1
+--- !u!1 &1665882956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3337936808837985237, guid: eb81828a3e7901c4c82567d1829b902b,
+    type: 3}
+  m_PrefabInstance: {fileID: 967809846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1665882957 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4847237174451084975, guid: eb81828a3e7901c4c82567d1829b902b,
+    type: 3}
+  m_PrefabInstance: {fileID: 967809846}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1678376369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4459864851310106424, guid: 6bacecc4f3df9584198879c73a6b6c36,
